@@ -41,7 +41,7 @@ echo "Starting Panel"
 
 node .
 
-echo"Panel Installation Complete ✅"
+echo "Panel Installation Complete ✅"
 
 echo "You Can Access The Panel From Port 3000"
 
