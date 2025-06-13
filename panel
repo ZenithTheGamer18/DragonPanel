@@ -47,7 +47,7 @@ echo "You Can Access The Panel From Port 3000"
 
 echo "Updating Files"
 
-# Step 7: "Upgrading & Updating Files"
+# Step 7: Upgrading & Updating Files
 
 apt update
 apt upgrade
