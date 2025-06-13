@@ -1,1 +1,43 @@
 #!/bin/bash
+# Credit HopingBoys
+echo "Panel Installation Started"
+
+echo "Installing Files"
+
+# Step 1: Installing Files
+
+git clone https://github.com/dragonlabsdev/v2panel
+
+echo "Installing Node.js"
+
+# Step 2: Installing Node.js
+
+curl -sL https://deb.nodesource.com/setup_23.x | sudo bash -
+apt-get install nodejs git
+
+echo "Going To Panel Directory"
+
+# Step 3: Going To Panel Directory
+
+cd v2panel
+
+echo "Unziping Files"
+
+# Step 4: Unzip Files
+
+apt install zip -y && unzip panel.zip && cd panel
+
+echo "Creating User For Panel"
+
+# Step 5: Creating User
+
+npm install && npm run seed && npm run createUser
+
+echo "Starting Panel
+
+# Step 6: Starting Panel
+
+node .
+
+echo "Panel Installation Complete ✅"
+echo "You Can Access The Panel From Port 3000"
