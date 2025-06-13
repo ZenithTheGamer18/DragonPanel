@@ -35,7 +35,7 @@ echo "Creating User For Panel"
 
 npm install && npm run seed && npm run createUser
 
-echo "Starting Panel
+echo "Starting Panel"
 
 # Step 6: Starting Panel
 
