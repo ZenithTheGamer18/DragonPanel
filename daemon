@@ -1,3 +1,28 @@
 #!/bin/bash
 # Credit Hopingboys
 
+echo "Installing Daemon"
+
+# Step 1: Installing Files
+
+git clone https://github.com/dragonlabsdev/daemon
+
+# Step 2: Going To Daemon Directory
+
+cd daemon
+
+echo "UnzipingFiles"
+
+# Step 3: Unziping Files
+
+apt install zip -y && unzip daemon.zip && cd daemon
+
+echo "Installing Dependencies"
+
+# Step 4: Installing Dependencies
+
+npm install
+
+echo "Paste Your Node Configuration"
+
+echo "Node ."
