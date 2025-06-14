@@ -43,8 +43,3 @@ echo "Starting Panel"
 node .
 
 echo "Panel Installation Complete ✅"
-
-# Step 7: Upgrading & Updating Files
-
-apt update
-apt upgrade
