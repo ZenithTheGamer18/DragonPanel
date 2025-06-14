@@ -1,5 +1,6 @@
 #!/bin/bash
 # Credit HopingBoys
+
 echo "Panel Installation Started"
 
 echo "Installing Files"
@@ -42,10 +43,6 @@ echo "Starting Panel"
 node .
 
 echo "Panel Installation Complete ✅"
-
-echo "You Can Access The Panel From Port 3000"
-
-echo "Updating Files"
 
 # Step 7: Upgrading & Updating Files
 
